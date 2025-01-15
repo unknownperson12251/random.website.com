@@ -9,27 +9,50 @@
 
 <body>
 <p>Welcome home! Click <a href="test.html">HERE</a> to see whether this works.</p>
-<div class="w3-top">	
-	<div class="w3-bar w3-transparent w3-17">
-		<a href"studies.html" class="w3-bar-item w3-button w3-mobile w3-white w3-hover-none w3-hover-text-white w3-padding-16" style="width:33%">Study resources</a>
-		<a href"projects.html" class="w3-bar-item w3-button w3-mobile w3-white w3-hover-none w3-hover-text-white w3-padding-16" style="width:33%">Projects</a>
-		<a href"personalblog.html" class="w3-bar-item w3-button w3-mobile w3-white w3-hover-none w3-hover-text-white w3-padding-16" style="width:33%">Personal blog</a>
-	</div>
-</div>
-
+<ul>
+        <li class="link"><a href="studies.html">Study resources</a></li>
+        <li class="link"><a href="projects.html">Projects</a></li>
+	<li class="link"><a href="personalblog.html">Personal Blog</a></li>
+</ul>
 
 <style>
-.w3-top, body, p {
+ul, body, p {
 	font-family: 'Arial' !important
+}
+ul {
+	background-color: rgb(255,255,255,0.5);
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+	overflow: hidden;
+	width: 100%;
+}
+li {
+	display: inline;
+	float: left;
+}
+li a {
+	display: block;
+  	color: #fff;
+  	text-align: center;
+ 	padding: 18px 18px;
+  	text-decoration: none;
+	font-size: 18px;
+}
+li a:hover:not(.active) {
+  	color: #FFF;
+}
+.active {
+	background-color: #00000000;
 }
 body {
 	background-color: #FFF;
-	scroll behaviour: smooth;
+	scroll-behaviour: smooth;
 	background-color: #FFF;
 	margin-bottom: 100px;
 	margin-right: 150px;
 	margin-left: 200px;
-	background-image: url('/images/DSC_0000012.jpg');
+	background-image: url("../images/DSC_0000012.jpg");
 }
 p {
 	font-size: 40px;
