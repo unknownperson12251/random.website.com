@@ -9,6 +9,58 @@
 </head>
 
 <body>
+<div class="container">
+	<img src="DSC_0000012.jpg" alt="background" style="width=100%">
+	<div class="centered">Welcome home!</div>
+	<link rel="stylesheet" href="css/styles.css">
+</div>
+<div class="tab">
+	<button class="tablink" onclick="openCity(this, 'Study resources')" id="defaultOpen">Study resources</button>
+	<button class="tablink" onclick="openCity(this, 'Projects')" id="defaultOpen">Projects</button>
+	<button class="tablink" onclick="openCity(this, 'Personal blog')" id="defaultOpen">Personal blog</button>
+	<link rel="stylesheet" href="css/headertabs.css">
+	<script>
+		function openCity(elmnt, cityName) {
+			// Hide all elements with class="tabcontent" by default */
+			var i, tabcontent, tablinks;
+			tabcontent = document.getElementsByClassName("tabcontent");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+	
+			// Remove the background color of all tablinks/buttons
+			tablinks = document.getElementsByClassName("tablink");
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].style.backgroundColor = "";
+			}
+
+			// Sow the specific tab content
+			document.getElementById(cityName).style.display = "block";
+
+			// Add the specific color to the button used to open the tab content
+  			elmnt.style.backgroundColor = color;
+			}
+		
+			// Get the element with id="defaultOpen" and click on it
+			document.getElementById("defaultOpen").click();
+		}
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
+	</script>
+<!-- Click on the <span> element to close the tab -->
+</div>
+<div id="Study resources" class="tabcontent">
+	<a href="studies.html"></a>
+	<span onclick="this.parentElement.style.display='none'>x</span>
+</div>
+<div id="Projects" class="tabcontent">
+	<a href="projects.html"></a>
+	<span onclick="this.parentElement.style.display='none'>x</span>	
+</div>
+<div id="Personal blog" class="tabcontent">
+	<a href="personalblog.html"></a>
+	<span onclick="this.parentElement.style.display='none'>x</span>
+</div>
 <h1>Welcome home!</h1>
 <p>Click <a href="test.html">HERE</a> to see whether this works.</p>
 </body>
