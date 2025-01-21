@@ -1,0 +1,42 @@
+.sidebar {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	left: 0;
+	background-color: #FFF;
+	overflow-x: hidden;
+	padding-top: 18px;
+	transition: 0.5s;
+	scrollbar-width: thin;
+	direction: rtl;
+}
+.sidebar a {
+	padding: 18px 18px;
+	text-decoration: none;
+	font-family: 'Arial';
+	border-bottom-style: solid;
+	border-color: #F0F0F0;
+	color: rgb(1,33,65,1.0);
+	font-size: 18px;
+	display: block;
+	transition: 0.3s;
+	text-align: left;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.sidebar a:hover {
+	color: (1,33,65,0.6) 
+}
+.sidepanel .closebtn {
+	position: absolute;
+	top: 0;
+	font-size: 18px;
+	margin-right: 18px;
+	transform: translate(0%, -50%);
+}
+.openbtn {
+	cursor: pointer;
+	border: none;
+}
