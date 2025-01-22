@@ -25,9 +25,4 @@ li a:hover:not(.active) {
 }
 .active {
 	background-color: #FFF;
-	border-style: solid;
-	border-bottom-color: #ffde5c;
-	border-top-color: #FFF;
-	border-right-color: #FFF;
-	border-left-color: #FFF;
 }
