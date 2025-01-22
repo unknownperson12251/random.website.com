@@ -1,7 +1,7 @@
 .navbar {
 	transition: margin-left .5s;
 	height: 90%;
-    font-family: 'Arial';
+    	font-family: 'Arial';
 }
 .nav-links {
 	background-color: #ffde5c;
@@ -22,11 +22,52 @@
 .nav-links #IP3 {
 	margin-top: 21px;
 	font-size: 18px;
-	margin-right: 21px;
+	margin-right: 19px;
+}
+.nav-links #IP3 .dropdwnbtn {
+	font-size: 18px;
+	border: none;
+	padding: 0px 0px 17px;
+	margin-right: 0;
+	outline: none;
+	color: rgb(1,33,65,1.0);
+	text-decoration: none;
+	background-color: inherit;
+	font-family: inherit;
+	display: inline-block;
+	position: relative;
+}
+.nav-links a:hover #IP3:hover .dropdwnbtn {
+	background-color: rgb(255, 222, 92, 0.8)
+}
+.nav-links #IP3 .dropdwn-content {
+	display: none;
+	position: absolute;
+	background-color: #00000000;
+	min-width: 10px;
+	color: rgb(1,33,65,0.8)
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	text-align: left;
+}	
+.nav-links #IP3 .dropdwn-content a {
+	color: rgb(1,33,65,0.8)
+	text-align: left;
+	margin-left: -2px;
+	float: none;
+	display: block;
+	padding: 17px;
+	font-size: 16px;
+}	
+.dropdwn-content a:hover {
+	rgb(1,33,65,1.0);
+}
+#IP3:hover .dropdwn-content {
+	display: block;
 }
 .nav-links #button {
 	padding: 0;
-    margin-left: 13px
+    	margin-left: 13px
 }
 .nav-links li a {
 	display: block;
