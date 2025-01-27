@@ -1,0 +1,25 @@
+.sidenav {
+	height: 100%;
+	width: 280px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #000000;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+.sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: 'Roboto';
+	color: #fff;
+	display: block;
+}
+.sidenav a:hover:not(.active) {
+	color: #FFF;
+}
+.sidenav .active {
+	color: #FFF;
+}
