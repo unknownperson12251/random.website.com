@@ -29,7 +29,7 @@
 .sidebar a:hover {
 	color: (1,33,65,0.6) 
 }
-.sidepanel .closebtn {
+.sidebar .closebtn {
 	position: absolute;
 	top: 0;
 	font-size: 18px;
@@ -39,4 +39,7 @@
 .openbtn {
 	cursor: pointer;
 	border: none;
+}
+.sidebar::-webkit-scrollbar {
+    	display: none;
 }
