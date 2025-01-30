@@ -18,12 +18,14 @@
 <p><span style="color:black;"><b>404.</b></span> That's an error.</p>
 <br>
 <p style="color:black;">The requested URL /adads was not found on this server.</p>
-<a href="actualblog.html" target="_blank" rel="noopener noreferrer" onclick="myFunction()">That's all we know.</a>
+<a href="actualblog.html" target="_blank" rel="noopener noreferrer" id="refresh">That's all we know.</a>
 <img src="Screenshot 2025-01-17 225117.png" alt="error" width="25%">
 <script>
-function myFunction() {
-	location.replace("https://hoanggialinh601.github.io/random.website.com/")
+const refreshBtn = document.getElementById("refresh");
+function handleClick() {
+  window.location.reload("https://hoanggialinh601.github.io/random.website.com/");
 }
+refreshBtn.addEventListener("click", handleClick);
 </script>
 <style>
 h1 {
