@@ -10,7 +10,7 @@
 	padding-top: 18px;
 	transition: 0.5s;
 	direction: rtl;
-	scrollbar-width: none;
+	scrollbar-width: thin;
 }
 .sidebar a {
 	padding: 18px 18px;
@@ -29,7 +29,7 @@
 .sidebar a:hover {
 	color: (1,33,65,0.6) 
 }
-.sidebar .closebtn {
+.sidepanel .closebtn {
 	position: absolute;
 	top: 0;
 	font-size: 18px;
