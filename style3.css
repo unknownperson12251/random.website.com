@@ -11,6 +11,7 @@
 	transition: 0.5s;
 	scrollbar-width: thin;
 	direction: rtl;
+	scrollbar-width: none;
 }
 .sidebar a {
 	padding: 18px 18px;
@@ -39,7 +40,4 @@
 .openbtn {
 	cursor: pointer;
 	border: none;
-}
-.sidebar::-webkit-scrollbar {
-    	display: none;
 }
