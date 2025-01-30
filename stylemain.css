@@ -9,6 +9,7 @@
 	line-height: normal;
 	font-size: 18px;
 	color: #000000;
+	user-select: none;
 }
 .textbox {
 	border: 1px #ffeb99;
@@ -16,6 +17,7 @@
 	padding: 30px;
 	background-color: #fffae6;
 	margin-right: 30px;
+	user-select: none;
 }
 #column {
 	column-span: all;
@@ -23,6 +25,7 @@
 	font-size: 18px;
 	color: rgb(1,33,65,1.0);
 	background-color: #fffae6;
+	user-select: none;
 }	
 #unorderedlist {
 	list-style-type: lower-alpha;
