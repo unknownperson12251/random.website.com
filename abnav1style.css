@@ -8,6 +8,7 @@
 	background-color: #000000;
 	overflow-x: hidden;
 	padding-top: 20px;
+	user-select: none;
 }
 .sidenav a {
 	padding: 6px 8px 6px 16px;
@@ -16,6 +17,7 @@
 	font-family: 'Roboto';
 	color: #fff;
 	display: block;
+	user-select: none;
 }
 .sidenav a:hover:not(.active) {
 	color: #FFF;
