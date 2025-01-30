@@ -12,9 +12,7 @@
 	display: grid;
     	align-items: center;
 	grid-template-rows: 240px 25px 40px 40px 25px 25px;
-}
-.navbar > :first-child {
-	margin-top: 300px; !important
+	user-select: none;
 }
 .navbar a {
 	padding: 0;
@@ -23,6 +21,7 @@
 	font-family: 'Roboto';
 	color: #fff;
 	display: block;
+	user-select: none;
 }
 .navbar a:hover:not(.active) {
 	color: #FFF;
