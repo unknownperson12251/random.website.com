@@ -32,6 +32,7 @@
 	font-size: 18px;
 	color: rgb(1,33,65,1.0);
 	background-color: #fffae6;
+	user-select: none;
 }
 #main ul {
 	list-style-type: lower-alpha;
@@ -39,11 +40,13 @@
 	font-size: 18px;
 	color: rgb(1,33,65,1.0);
 	background-color: #fffae6;
+	user-select: none;
 }
 #main h1 {
 	color: rgb(27,0,72,1.0);
 	font-family: "Product Sans", serif;
 	font-size: 40px;
+	user-select: none;
 }
 #main h2 {
 	color: rgb(1,33,65,1.0);
@@ -54,4 +57,5 @@
 	border-color: #ffeb99;
 	column-span: all;
 	padding: 10px;
+	user-select: none;
 }
