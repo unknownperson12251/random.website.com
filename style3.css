@@ -9,7 +9,6 @@
 	overflow-x: hidden;
 	padding-top: 18px;
 	transition: 0.5s;
-	scrollbar-width: thin;
 	direction: rtl;
 	scrollbar-width: none;
 }
