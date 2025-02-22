@@ -1,4 +1,4 @@
-    function fun() {
+function fun() {
         let inputPswd = document.getElementById("validate")
                                 .value;
         let correctPswd = "240709";
@@ -10,10 +10,9 @@
             	document.getElementById("pswd")
                 	.style.display = "none";
         }
-    }
+};
 document.onkeydown = function(e) {
-        if (e.ctrlKey && 
-            (e.keyCode === 85 )) {
+        if (e.ctrlKey && e.keyCode === 85 ) {
             return false;
         }
 };
