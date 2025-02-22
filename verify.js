@@ -1,4 +1,3 @@
-<script>
     function fun() {
         let inputPswd = document.getElementById("validate")
                                 .value;
@@ -12,4 +11,3 @@
                 	.style.display = "none";
         }
     }
-</script>
