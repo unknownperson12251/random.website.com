@@ -16,6 +16,6 @@ document.onkeydown = function(e) {
             return false;
         }
         if (e.keyCode === 13){
-            submitform()
+            fun();
         }
 };
