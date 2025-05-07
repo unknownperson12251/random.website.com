@@ -11,7 +11,7 @@
 	vertical-align: middle;
 	display: grid;
     	align-items: center;
-	grid-template-rows: 170px 45px 35px 35px 25px 35px 45px 45px 45px 45px 45px 25px 35px;
+	grid-template-rows: 170px 45px 35px 35px 25px 35px 45px 45px 45px 45px 45px 25px 25px;
 	user-select: none;
 }
 .navbar a {
