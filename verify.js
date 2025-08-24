@@ -16,3 +16,11 @@ document.onkeydown = function(e) {
             return false;
         }
 };
+var input = document.getElementById("validate");
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("button").click();
+  }
+});
+
